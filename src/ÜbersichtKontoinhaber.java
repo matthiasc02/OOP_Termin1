@@ -3,9 +3,8 @@ public class ÜbersichtKontoinhaber {
 
 	public static void main(String[] args) {
 		
-		Konto maxmuster=new Konto();
+		Konto maxmuster=new Konto("Max", "Muster");
 		
-		maxmuster.setinhaber("Max", "Muster");
 		maxmuster.aufbuchen(100);
 		System.out.println("Kontostand: "+ maxmuster.getKontostand());
 		maxmuster.abbuchen(120);

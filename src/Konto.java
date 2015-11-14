@@ -4,7 +4,7 @@ public class Konto {
 	private String Kontoinhaber;
 	private double Kontostand;
 	
-	public void setinhaber(String Vorname, String Nachname)
+	public Konto (String Vorname, String Nachname)
 	{
 		Kontoinhaber=Vorname+Nachname;
 	}
